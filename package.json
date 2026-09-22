@@ -1,0 +1,16 @@
+{
+  "name": "eire-train-bot-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Eire Train Telegram Mini App: receives applications and handles Stars subscriptions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
