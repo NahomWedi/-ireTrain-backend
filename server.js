@@ -3,7 +3,8 @@ const express = require('express');
 const crypto = require('crypto');
 
 const app = express();
-app.use(express.json());
+app.use(express.static(__dirname));
+
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
